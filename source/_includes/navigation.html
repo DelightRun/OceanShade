@@ -1,8 +1,10 @@
-{% include custom/navigation.html %}
 {% if site.description %}
 <section class="aboutme">
-  <p>
-    {{ site.description }}
-  </p>
+  <h1>
+    {{ site.author }}
+  </h1>
 </section>
 {% endif %}
+<hr class="seperator" style="width: 60%;"> 
+{% include custom/navigation.html %}
+<hr class="seperator" style="width: 40%;"> 
