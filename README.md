@@ -4,7 +4,11 @@ OceanShade是我基于[greyshade](https://github.com/shashankmehta/greyshade)修
 
 预览效果详见我自己的博客[Changxu's Blog](http://changxu.me)
 
-##New Features
+##新特性
+
++ 左边栏颜色改成漂亮的渐变色，宽度略加宽，并重新布局
++ 去掉twitter相关的部分以解决在国内加载慢的问题
++ 添加新浪微博，使用时请在`_config.yml`文件加入`weibo_user: 你的微博名或ID`
 
 ##安装说明
 
@@ -14,6 +18,8 @@ OceanShade是我基于[greyshade](https://github.com/shashankmehta/greyshade)修
     $ git clone git@github.com:DelightRun/OceanShade.git .themes/OceanShade
     $ rake "install[greyshade]"
     $ rake generate
+    $ rake preview # 预览
+    $ rake deploy # 部署
 
 其他设置可自行修改`_config.yml`文件
   
