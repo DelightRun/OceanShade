@@ -2,7 +2,7 @@
 
 OceanShade是我基于[greyshade](https://github.com/shashankmehta/greyshade)修改的自用Octopress主题
 
-预览效果详见我自己的博客[Changxu's Blog](http://changxu.me)
+预览效果详见我自己的博客[Changxu's Blog](http://changxu.wang)
 
 ##新特性
 
@@ -15,8 +15,8 @@ OceanShade是我基于[greyshade](https://github.com/shashankmehta/greyshade)修
 在Ubuntu下键入以下命令（假设你以搭建好自己的Octopress）
 
     $ cd /path/to/your/blog/
-    $ git clone git@github.com:DelightRun/OceanShade.git .themes/OceanShade
-    $ rake "install[greyshade]"
+    $ git clone https://github.com/DelightRun/OceanShade.git .themes/OceanShade
+    $ rake "install[OceanShade]"
     $ rake generate
     $ rake preview # 预览
     $ rake deploy # 部署
