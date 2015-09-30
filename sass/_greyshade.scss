@@ -199,7 +199,9 @@ body {
         }
     }
 	.left-col {
-        background: $color-sidebar no-repeat;
+        background: $color-sidebar;
+        background-repeat: no-repeat;
+        background-size: cover;
 		width: $width-sidebar;
 		position: fixed;
 		color: $color-gray05;
