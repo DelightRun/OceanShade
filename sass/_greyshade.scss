@@ -12,7 +12,7 @@ body {
 }
 
 ::selection, ::-moz-selection, ::-webkit-selection {
-  background-color: $greyshade;
+  background-color: $color-main;
   color: $color-background;
 }
 
@@ -146,7 +146,7 @@ body {
 							border-bottom: none;
 						}
 						blockquote {
-							border-left: 5px solid $greyshade;
+							border-left: 5px solid $color-main;
 							background: #F7F7F7;
 							p {
 								margin-top: 0px;
@@ -183,7 +183,7 @@ body {
 							@include transition(color 0.3s);
 						}
 						a:hover {
-							color: $greyshade;
+							color: $color-main;
 						}
 					}
 				}
@@ -267,11 +267,11 @@ body {
 }
 
 a {
-	color: $greyshade;
+	color: $color-main;
 }
 
 a:hover {
-	color: $greyshade;
+	color: $color-main;
 }
 
 body {
